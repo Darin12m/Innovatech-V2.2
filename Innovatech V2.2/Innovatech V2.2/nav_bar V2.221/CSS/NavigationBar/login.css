@@ -1,0 +1,150 @@
+/* Log in */
+* {
+	box-sizing: border-box;
+}
+
+.bg-img {
+	background-image: url("../../Images/login.jpg");
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7rem;
+	/* min-height: 380px; */
+	width: 100%;
+	height: 83.6vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* position: relative;  */
+}
+.form-txt {
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+}
+.paragraph {
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: justify;
+	/* width: 60%;
+	padding: 20px; */
+	font-weight: bold;
+	color: white;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.login-container {
+	border: 10px solid black;
+}
+
+.containerr {
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.btn {
+	background-color: #04aa6d;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.mb-0 {
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+/* informationForLogIn */
+.informationForLogIn {
+	box-sizing: border-box;
+	width: 800px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.2);
+	/* position: relative; */
+	/* top: 130px;
+	left: 300px; */
+	/* border-radius: 10px; */
+	padding-left: 20px;
+	padding-right: 20px;
+	/* transform: skew(-15deg); */
+	/* text-align: center; */
+}
+.information-for-login {
+	position: relative;
+	top: 6%;
+	color: white;
+	/* text-align: center; */
+	text-align: justify;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: x-large;
+}
+/* .col-sm > p {
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: justify;
+	padding: 20px;
+} */
+/* .bg-img {
+	position: relative;
+} */
+
+/* footer */
+
+/* For Tablet View */
+/* Width 769 - 1024px */
+/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.bg-img,
+	.footer {
+		flex-direction: column;
+	}
+
+	nav {
+		background: darkred;
+	}
+} */
+
+/* For Mobile Portrait View */
+/* @media screen and (max-device-width: 480px) and (orientation: portrait) {
+	.bg-img,
+	.footer {
+		flex-direction: column;
+	}
+
+	nav {
+		background: green;
+	}
+} */
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) {
+	.bg-img {
+		flex-direction: column;
+	}
+}
